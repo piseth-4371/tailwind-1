@@ -21,7 +21,7 @@
         @apply opacity-60 font-light w-auto h-auto
     }
     .dec{
-        @apply flex items-center justify-center my-10 h-auto max-w-xl
+        @apply h-auto w-md flex items-center justify-center m-5
     }
     .d_img{
         @apply h-15 w-auto mx-10
