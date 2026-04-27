@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helper</title>
+    <link rel="stylesheet" href="src/css/fonts.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/output.css">
+    
+</head>
+<body>  
+    <nav class="fixed h-20 w-full flex lg:justify-between items-center  bg-neutral-700 text-white px-5 py-4 z-1">
+        <button id="menu-btn" class="lg:hidden mr-5" >
+            <img class="invert w-auto max-h-7" src="src/images/menu-burger.png" alt="">
+        </button>
+
+        <a href="index.html">
+            <img class="max-h-13 w-auto" src="src/images/logo-inverse-415x103.png" alt="">
+        </a>
+        <ul class="hidden lg:flex justify-center items-center">
+            <li><a class="nav-a" href="index.html">Home</a></li>
+            <li><a class="nav-a" href="#">About us</a></li>
+            <li><a class="nav-a" href="#">Typography</a></li>
+            <li><a class="nav-a" href="#">Contacts</a></li>
+        </ul>
+        <a href="#" class="hidden lg:flex nav-btn">
+            Donate
+        </a>
+
+        <div id="menu-mobile" class="hidden absolute flex flex-col bg-neutral-700 top-20 left-0 h-screen w-auto pt-3.5 m-0">
+            <a class="nav-a2" href="index.html">Home</a>
+            <a class="nav-a2" href="#">About us</a>
+            <a class="nav-a2" href="#">Typography</a>
+            <a class="nav-a2" href="#">Contacts</a>
+            <a href="#" class="nav-btn flex mx-4 my-10">
+                Donate
+            </a>
+        </div>
+
+    </nav>
+    <header class="h-screen w-full flex flex-col items-center justify-center bg-[url('/src/images/bg-bunner-2.jpg')] bg-cover bg-center" >
+        <h1 class="text-[clamp(2.5rem,6.5vw,12rem)] max-w-5xl max-h-50 font-extrabold text-white text-center my-1.5">Help The Children</h1>
+        <p class="text-[clamp(1rem,5vw,1.5rem)] max-w-4xl h-auto text-white text-center ">We do whatever it takes to make sure children don’t just survive but thrive. 
+            Helper believes that every child should be able to make their mark on their world and help 
+            build a better future.
+        </p>
+        <img src="src/images/decor-wave-bottom.png" alt="" class="h-auto w-screen absolute bottom-0">
+    </header>
+
+    <section class="h-auto flex flex-row items-center justify-around py-50">
+        <div class="relative grid grid-cols-2">
+            <img src="src/images/animate-img-1.jpg" alt="">
+            <img src="src/images/animate-img-2.jpg" alt="">
+            <img src="src/images/animate-img-3.jpg" alt="">
+            <img src="src/images/animate-img-4.jpg" alt="">
+            <img src="src/images/animate-img-5.jpg" alt="">
+            <img src="src/images/animate-img-6.jpg" alt="">
+        </div>
+        <div class="flex flex-col ">
+            <div class="max-w-2xl">
+                <h2 class="text-3xl text-b font-extrabold my-10">Our Mission</h2>
+                <p class="p" >Our organization pursues several goals that can be identified as our mission. Learn more about them below.</p>
+            </div>
+            <div class="flex flex-col">
+                <div class="dec">
+                    <img class="d_img" src="src/images/child-head.svg" alt="">
+                    <div>
+                        <h3 class="h3">Saving Children</h3>
+                        <p class="p">Our main mission is to save and rescue permanently displaced children.</p>
+                    </div>
+                </div>
+
+                <div class="dec">
+                    <img class="d_img" src="src/images/brightness.svg" alt="">
+                    <div>
+                        <h3 class="h3">Peace On The Planet</h3>
+                        <p class="p">By working with our partners, we aim to establish peaceful relationships.</p>
+                    </div>
+                </div>
+                <div class="dec">
+                    <img class="d_img" src="src/images/umbrella.svg" alt="">
+                    <div>
+                        <h3 class="h3">Care & Protection</h3>
+                        <p class="p">We provide global care and protection to support children all over the world.</p>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="bg-gray-100 flex flex-col items-center justify-around h-auto p-20">
+        <div class="text-center max-w-3xl my-5">
+            <h1 class="text-4xl font-bold mb-5">Latest Causes</h1>
+            <p class="p px-5">At Helper, there are various charity causes and projects, in which you can always take part. Feel free to learn about them below or browse our website for more information.</p>
+        </div>
+        <div class="flex flex-wrap items-center justify-center">
+            <div class="text-center m-7">
+                <img src="src/images/causes-01-372x396.jpg" alt="" class="mb-5">
+                <h2 class="text-2xl font-bold mb-2">Recycling for Charity</h2>
+                <p class="p"><span class="text-green-500">$92,160 </span>of $100,000 raised</p>
+            </div>
+            <div class="text-center m-7">
+                <img src="src/images/causes-02-372x396.jpg" alt="" class="mb-5">
+                <h2 class="text-2xl font-bold mb-2">Recycling for Charity</h2>
+                <p class="p"><span class="text-green-500">$92,160 </span>of $100,000 raised</p>
+            </div>
+            <div class="text-center m-7">
+                <img src="src/images/causes-03-372x396.jpg" alt="" class="mb-5">
+                <h2 class="text-2xl font-bold mb-2">Recycling for Charity</h2>
+                <p class="p"><span class="text-green-500">$92,160 </span>of $100,000 raised</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="h-auto bg-[url('/src/images/parallax-img-2.jpg')] bg-center bg-cover bg-fixed text-center py-30 flex flex-col items-center justify-center">
+        <h1 class="text-5xl font-bold text-white my-10">Subscribe to Stay Informed</h1>
+        <div class="w-auto flex flex-wrap items-center justify-around" >
+            <input class="h-15 w-[clamp(300px,50vw,34rem)] bg-cyan-50 rounded-md m-5 px-5" type="email" placeholder="Your-Email">
+            <a class="nav-btn" href="#">
+                subscribe
+            </a>
+        </div>
+    </section>
+
+    <footer class="w-full bg-neutral-800 flex flex-col items-center justify-center text-center py-15">
+        <img src="src/images/logo-inverse-415x103.png" alt="" class="h-20 w-auto pl-10 pb-5">
+        <div class="flex flex-wrap items-center justify-around">
+            <a class="footCon1" href="">About us</a>
+            <a class="footCon1" href="">Cause</a>
+            <a class="footCon1" href="">Grallery</a>
+            <a class="footCon1" href="">Team</a>
+            <a class="footCon1" href="">Contacts</a>
+        </div>
+        <div class="flex flex-wrap my-5 items-center justify-center">
+            <a class="footCon2" href="#"><img class="rounded-full h-10 " src="src/images/facebook.png" alt=""></a>
+            <a class="footCon2" href="#"><img class="rounded-full h-10 " src="src/images/youtube-circle.png" alt=""></a>
+            <a class="footCon2" href="#"><img class="rounded-full h-10 " src="src/images/instagram-circle.png" alt=""></a>
+            <a class="footCon2" href="#"><img class="rounded-full h-10 " src="src/images/tiktok-circle.png" alt=""></a>
+        </div>
+        <p class="p mx-5 text-white opacity-30 text-sm" >
+            <span>©&nbsp;</span>2026 Helper. All Rights Reserved. Clone by 
+            <a href="https://www.facebook.com/">Piseth</a>
+        </p>
+    </footer>
+</body>
+</html>
+<script src="src/js/script.js"></script>
