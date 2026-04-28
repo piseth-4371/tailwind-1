@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helper</title>
+    <link rel="stylesheet" href="/src/css/fonts.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/output.css">
+    
+</head>
+<body> 
+    <nav class="fixed h-20 w-full flex lg:justify-between items-center  bg-neutral-700 text-white px-5 py-4 z-10">
+        <button id="menu-btn" class="lg:hidden mr-5" >
+            <img class="invert w-auto max-h-7" src="src/images/menu-burger.png" alt="">
+        </button>
+
+        <a href="index.html">
+            <img class="max-h-13 w-auto" src="src/images/logo-inverse-415x103.png" alt="">
+        </a>
+        <ul class="hidden lg:flex justify-center items-center">
+            <li><a class="nav-a" href="index.html">Home</a></li>
+            <li><a class="nav-a" href="aboutus.html">About us</a></li>
+            <li><a class="nav-a" href="contacts.html">Contacts</a></li>
+        </ul>
+        <a href="#" class="hidden lg:flex nav-btn">
+            Donate
+        </a>
+
+        <div id="menu-mobile" class="hidden absolute flex flex-col bg-neutral-700 top-20 left-0 h-screen w-auto pt-3.5 m-0">
+            <a class="nav-a2" href="index.html">Home</a>
+            <a class="nav-a2" href="#">About us</a>
+            <a class="nav-a2" href="#">Typography</a>
+            <a href="#" class="nav-btn flex mx-4 my-10">
+                Donate
+            </a>
+        </div>
+    </nav>
+
+    <header class="h-screen w-full flex flex-col items-center justify-center bg-[url('/src/images/bg-breadcrumbs-about.jpg')] bg-cover bg-center" >
+        <h1 class="text-[clamp(2rem,4vw,11rem)] max-w-5xl max-h-50 font-extrabold text-white text-center my-1.5">Contacts</h1>
+        <div class="flex items-center justify-around flex-wrap text-white">
+            <a class="mx-5 uppercase hover:text-green-500" href="index.html">HOME</a> 
+            <a class="mx-5 uppercase hover:text-green-500" href="aboutus.html">Contacts</a>
+        </div>
+    </header>
+
+    <section class="flex flex-wrap items-center justify-evenly bg-gray-100 py-30 px-5">
+        <div class="h-45 w-auto flex flex-col items-center justify-around">
+            <img src="src/images/call-incoming.png" alt="">
+            <h2 class="text-2xl font-bold ">1-800-123-1234</h2>
+            <p class="p">You can call us anytime</p>
+        </div>
+        <div class="h-45 w-auto flex flex-col items-center justify-around">
+            <img src="src/images/map.png" alt="">
+            <h2 class="text-2xl font-bold h-auto w-xs text-center">51 Francis Street, Darlinghurst NSW 2010, United States</h2>
+        </div>
+        <div class="h-45 w-auto flex flex-col items-center justify-around">
+            <img src="src/images/call-incoming.png" alt="">
+            <h2 class="text-2xl font-bold ">info@helper.com</h2>
+            <p class="p">Feel free to email us your questions</p>
+        </div>
+    </section>
+
+     <section class="h-150 w-full flex flex-col items-center justify-around p-15">
+       <h1 class="text-3xl font-bold">Get in Touch</h1>
+        <input class="border-2 opacity-50 sm:w-lg h-15 lg:w-xl  rounded-lg px-5" type="text" placeholder="Your Name">
+        <input class="border-2 opacity-50 sm:w-lg h-15 lg:w-xl  rounded-lg px-5" type="email" placeholder="E-mail">
+        <input class="border-2 opacity-50 sm:w-lg h-15 lg:w-xl  rounded-lg px-5" type="number" placeholder="Phone">
+        <textarea name="" id="" placeholder="Message" class="border-2 opacity-50 sm:w-lg h-15 lg:w-xl rounded-lg px-5 pt-5"></textarea>
+        <a class="nav-btn h-12 sm:w-xs lg:w-xs" href="">Send</a>
+    </section>
+
+    <footer class="w-full bg-neutral-800 flex flex-col items-center justify-center text-center py-15">
+        <img src="src/images/logo-inverse-415x103.png" alt="" class="h-20 w-auto pl-10 pb-5">
+        <div class="flex flex-wrap items-center justify-around">
+            <a class="footCon1" href="">About us</a>
+            <a class="footCon1" href="">Cause</a>
+            <a class="footCon1" href="">Grallery</a>
+            <a class="footCon1" href="">Team</a>
+            <a class="footCon1" href="">Contacts</a>
+        </div>
+        <div class="flex flex-wrap my-5 items-center justify-center">
+            <a class="footCon2" href="#"><img class="rounded-full h-10 " src="src/images/facebook.png" alt=""></a>
+            <a class="footCon2" href="#"><img class="rounded-full h-10 " src="src/images/youtube-circle.png" alt=""></a>
+            <a class="footCon2" href="#"><img class="rounded-full h-10 " src="src/images/instagram-circle.png" alt=""></a>
+            <a class="footCon2" href="#"><img class="rounded-full h-10 " src="src/images/tiktok-circle.png" alt=""></a>
+        </div>
+        <p class="p mx-5 text-white opacity-30 text-sm" >
+            <span>©&nbsp;</span>2026 Helper. All Rights Reserved. Clone by 
+            <a href="https://www.facebook.com/">Piseth</a>
+        </p>
+    </footer>
+</body>
+</html>
+<script src="src/js/script.js"></script>

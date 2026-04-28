@@ -10,7 +10,7 @@
     
 </head>
 <body>  
-    <nav class="fixed h-20 w-full flex lg:justify-between items-center  bg-neutral-700 text-white px-5 py-4 z-1">
+    <nav class="fixed h-20 w-full flex lg:justify-between items-center  bg-neutral-700 text-white px-5 py-4 z-10">
         <button id="menu-btn" class="lg:hidden mr-5" >
             <img class="invert w-auto max-h-7" src="src/images/menu-burger.png" alt="">
         </button>
@@ -21,7 +21,6 @@
         <ul class="hidden lg:flex justify-center items-center">
             <li><a class="nav-a" href="index.html">Home</a></li>
             <li><a class="nav-a" href="aboutus.html">About us</a></li>
-            <li><a class="nav-a" href="typography.html">Typography</a></li>
             <li><a class="nav-a" href="contacts.html">Contacts</a></li>
         </ul>
         <a href="#" class="hidden lg:flex nav-btn">
@@ -32,19 +31,17 @@
             <a class="nav-a2" href="index.html">Home</a>
             <a class="nav-a2" href="#">About us</a>
             <a class="nav-a2" href="#">Typography</a>
-            <a class="nav-a2" href="#">Contacts</a>
             <a href="#" class="nav-btn flex mx-4 my-10">
                 Donate
             </a>
         </div>
-
     </nav>
 
     <header class="h-screen w-full flex flex-col items-center justify-center bg-[url('/src/images/bg-breadcrumbs-about.jpg')] bg-cover bg-center" >
         <h1 class="text-[clamp(2rem,4vw,11rem)] max-w-5xl max-h-50 font-extrabold text-white text-center my-1.5">About Us</h1>
         <div class="flex items-center justify-around flex-wrap text-white">
-            <a class="mx-5" href="index.html">HOME</a> 
-            <a class="mx-5" href="aboutus.html">ABOUT US</a>
+            <a class="mx-5 uppercase hover:text-green-500" href="index.html">HOME</a> 
+            <a class="mx-5 uppercase hover:text-green-500" href="aboutus.html">ABOUT US</a>
         </div>
         <img src="src/images/decor-wave-bottom.png" alt="" class="h-auto w-screen absolute bottom-0">
     </header>
@@ -56,7 +53,10 @@
         <div class="h-auto w-xl flex flex-col px-5 m-10">
             <div class="max-w-2xl">
                 <h2 class="text-3xl font-extrabold my-5">About Helper</h2>
-                <p class="p text-2xl my-5 ">We are committed to helping wounded kids find their place.</p>
+                <div class="flex items-center justify-around">
+                    <div class="h-0.5 w-15 border-2 border-green-500 mx-3"></div>                            
+                    <p class="p text-2xl m-5 ">We are committed to helping wounded kids find their place.</p>
+                </div>                
             </div>
             <div class="flex flex-col">
                 <p class="p">
